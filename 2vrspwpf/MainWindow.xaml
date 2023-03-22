@@ -1,0 +1,28 @@
+﻿<Window x:Class="_2vrspwpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2vrspwpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="385,349,0,0" VerticalAlignment="Top" Height="31" RenderTransformOrigin="0.5,0.5" Width="113" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-534.543"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Margin="11,7,0,0" TextWrapping="Wrap" Text="" Name="Console1" VerticalAlignment="Top" Width="183" Height="263"/>
+        <TextBox HorizontalAlignment="Left" Margin="558,-3,0,0" TextWrapping="Wrap" Text="" x:Name="Console2" VerticalAlignment="Top" Width="183" Height="263"/>
+        <TextBox HorizontalAlignment="Left" Margin="296,-2,0,0" TextWrapping="Wrap" Text="" x:Name="Console3" VerticalAlignment="Top" Width="183" Height="263"/>
+        <TextBox HorizontalAlignment="Left" Margin="616,286,0,0" TextWrapping="Wrap" x:Name="bMassiv" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,295,0,0" TextWrapping="Wrap" x:Name="cMassiv" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="90,308,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
